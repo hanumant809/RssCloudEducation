@@ -8,7 +8,7 @@ html {
 body {
     height: 100vh;
     width: 100vw;
-    background-image: url("assets/Education_photo.jpg");
+    background-image: url("../assets/Education_photo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -85,7 +85,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #eddc64;
+    color: rgb(178, 34, 34);
 }
 
 .Intro {
@@ -151,5 +151,5 @@ body {
 
 .About-info h3 {
     text-align: center;
-    color: yellow;
+    color: rgb(178, 34, 34);
 }
