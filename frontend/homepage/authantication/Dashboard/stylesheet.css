@@ -9,50 +9,32 @@ body {
 
 }
 
-.nav a {
-    width: 131px;
-    font-size: 20px;
-    margin-left: 5px;
-    text-decoration: none;
-    color: dimgray;
-
-}
-
-#logo {
-    width: 162px;
-    padding: 2px;
-    font-size: 20px;
-    border: 2px solid maroon;
-    background-color: ivory;
-    color: rgb(75, 0, 130);
-}
-
-.nav {
-    background-color: hsl(185, 100%, 75%);
-    width: 239px;
-    height: 600px;
-    border: 2px solid blue;
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
 }
 
 .main-container {
-    background-color: hsl(180, 100%, 75%);
-    border: 2px solid blueviolet;
-    width: 100%;
-    background-color: 2px solid brown;
+    border: 2px solid red;
 }
 
 .nav-sidebar_container {
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
+    /*display: inline;*/
+    border: 2px solid black;
+    width: 20vw;
+    height: 100vh;
 }
 
-.wrapper {
-    width: 233px;
-    margin-top: 5px;
+.nav {
     padding: 5px;
-    gap: 40px;
-    margin-top: 5px;
     display: flex;
     flex-direction: column;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
 }

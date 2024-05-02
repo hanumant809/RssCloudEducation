@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: darkcyan;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile {
+    margin-top: 20px;
+}
+
+.profile img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+nav {
+    background-color: darkcyan;
+    color: #fff;
+    padding: 20px;
+    width: 212px;
+    height: 100vh;
+    position: fixed;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.course,
+.video {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+iframe {
+    width: 100%;
+}
